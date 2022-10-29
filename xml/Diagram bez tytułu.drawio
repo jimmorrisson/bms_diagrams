@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T13:57:58.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="BuzDytY4MvDKlkp2pu45" type="github"><diagram id="Vq_pMx_OuLIGEIDIoxgp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-29T14:20:01.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="EyzkvLPQuQu6cBdZ0_rm" version="20.5.1" type="github">
+  <diagram id="Vq_pMx_OuLIGEIDIoxgp" name="Strona-1">
+    <mxGraphModel dx="1220" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="370" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-1" value="Sterownik przemysłowy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-3" target="W4a0sEcm_nFDDskSNpcC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-3" value="ESP8266" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-4" target="W4a0sEcm_nFDDskSNpcC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-4" value="ESP8266" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="530" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-5" target="W4a0sEcm_nFDDskSNpcC-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-5" value="Serwer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-7" target="W4a0sEcm_nFDDskSNpcC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-7" target="W4a0sEcm_nFDDskSNpcC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-7" value="STM32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-28" value="BMS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;dashed=1;strokeColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-1" target="W4a0sEcm_nFDDskSNpcC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-39" value="Modbus TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W4a0sEcm_nFDDskSNpcC-37">
+          <mxGeometry x="-0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-44" value="UART" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-46" value="MQTT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-49" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=default;" edge="1" parent="1" source="W4a0sEcm_nFDDskSNpcC-54" target="W4a0sEcm_nFDDskSNpcC-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W4a0sEcm_nFDDskSNpcC-54" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/education-1006/32/laptop_notebook_technology_computer_desktop_screen_internet_monitor_pc_office-128.png" vertex="1" parent="1">
+          <mxGeometry x="990" y="252.5" width="55" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
