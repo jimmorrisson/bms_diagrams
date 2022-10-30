@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T13:27:10.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="yooc89w0FElWENs2L7KR" type="github"><diagram id="FNeYxmd66eGGClq3yC4d">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-30T13:36:26.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YHlVDe_PAl7-ZEdr8FeG" version="20.5.1" type="github">
+  <diagram id="FNeYxmd66eGGClq3yC4d" name="Strona-1">
+    <mxGraphModel dx="1014" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-2" target="f94V9vVj1-HXqQGxbf1O-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="60" />
+              <mxPoint x="220" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-2" target="f94V9vVj1-HXqQGxbf1O-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-2" value="Prąd jest niezerowy" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-3" target="f94V9vVj1-HXqQGxbf1O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-3" value="Całkowanie prądu po czasie" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-4" target="f94V9vVj1-HXqQGxbf1O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-4" value="Zaczekaj, aż bateria się ustabilizuje" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-5" target="f94V9vVj1-HXqQGxbf1O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-5" value="Oszacuj wartość OCV" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-6" target="f94V9vVj1-HXqQGxbf1O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-6" value="Sprawdź wartość naładowania magazynu energii przy danym napięciu OCV" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="f94V9vVj1-HXqQGxbf1O-7" target="f94V9vVj1-HXqQGxbf1O-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-7" value="Ustaw SOC na podstawie napięcia OCV" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="f94V9vVj1-HXqQGxbf1O-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="160" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="f94V9vVj1-HXqQGxbf1O-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="240" as="sourcePoint" />
+            <mxPoint x="740" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="f94V9vVj1-HXqQGxbf1O-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="370" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="370" />
+              <mxPoint x="610" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-19" value="Pomiar napięcia" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-20" value="Pomiar temperatury" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-21" value="Pomiar prądu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-22" value="Nie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f94V9vVj1-HXqQGxbf1O-23" value="Tak" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
